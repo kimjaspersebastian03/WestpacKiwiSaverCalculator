@@ -42,6 +42,8 @@ public class Elements {
 
     By projGrowthText = By.cssSelector("[font-size='12']");
 
+    By menuElement = By.id("menu-");
+
     public Elements(WebDriver driver) {
         this.driver = driver;
     }
@@ -113,5 +115,9 @@ public class Elements {
 
     public WebElement getProjGrowthText() {
         return driver.findElement(projGrowthText);
+    }
+
+    public WebElement getMenuElement() {
+        return driver.findElement(menuElement);
     }
 }

@@ -6,7 +6,7 @@
       <class name="testCases.ProjectForGrowth"/>
     </classes>
   </test> <!-- Test -->
-  
-
-  
+  <listeners>
+    <listener class-name="testCases.ProjectForGrowth" />
+  </listeners>
 </suite> <!-- Suite -->
