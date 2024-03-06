@@ -3,16 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCases.AddRemoveItemBasketTest"/>
+      <class name="testCases.ProjectForGrowth"/>
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="Test2">
-    <classes>
-      <class name="testCases.OrderCompleteTest"/>
-    </classes>
-  </test> <!-- Test -->  
-  
-  
+
   
 </suite> <!-- Suite -->
