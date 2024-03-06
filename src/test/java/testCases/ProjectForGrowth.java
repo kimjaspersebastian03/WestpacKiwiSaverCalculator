@@ -47,8 +47,7 @@ public class ProjectForGrowth extends Basepage implements ITestListener {
     }
 
     private void takeScreenshot(String testName) {
-        // Implement screenshot logic here
-        // You can use WebDriver's TakesScreenshot interface
+
 
         try {
             TakesScreenshot ts = (TakesScreenshot) driver;

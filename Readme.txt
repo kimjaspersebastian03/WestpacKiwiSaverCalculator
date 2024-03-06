@@ -3,8 +3,9 @@ Programming Language: Java
 Builder: Maven
 
 RUNNING THE TEST:
-a. Open the project to an IDE (IntelliJ or Eclipse)
-b. Find the testng.xml file and run it
+a. Create a copy of the project on your local
+b. Open the project to an IDE (IntelliJ or Eclipse)
+c. Find the testng.xml file and run it
 
 COVERAGE:
 There is only one case covered on this test due to time constraint, please see below for the set of answers used on this test:
@@ -49,7 +50,7 @@ Driver folder
 Path: src/main/java/drivers
 
 Screenshot folder
--Contains screenshot for failed and passed tests
+-Contains screenshot for failed and saved it to a folder
 Path: root diretory/screenshot
 
 ADDED FEATURES:
