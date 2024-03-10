@@ -5,7 +5,7 @@ Builder: Maven
 RUNNING THE TEST:
 a. Create a copy of the project on your local
 b. Open the project to an IDE (IntelliJ or Eclipse)
-c. Find the testng.xml file and run it
+c. Find the testng.xml file, right click and run it or on the command prompt type in mvn clean install
 
 COVERAGE:
 There is only one case covered on this test due to time constraint, please see below for the set of answers used on this test:
